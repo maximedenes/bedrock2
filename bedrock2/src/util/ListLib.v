@@ -2,7 +2,7 @@ Require Import Coq.Lists.List.
 Import ListNotations.
 Require Import compiler.Decidable.
 Require Import compiler.util.Tactics.
-Require Import Coq.omega.Omega.
+From Coq Require Import Omega.
 
 Section ListSet.
   Context {E: Type}.

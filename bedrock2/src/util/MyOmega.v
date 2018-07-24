@@ -1,4 +1,4 @@
-Require Export Coq.omega.Omega.
+From Coq Require Export Omega.
 
 Ltac unfold_Z_or_nat a := let t := type of a in first [unify t nat | unify t Z]; unfold a in *.
 

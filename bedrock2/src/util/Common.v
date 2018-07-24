@@ -1,4 +1,4 @@
-Require Export Coq.omega.Omega.
+From Coq Require Export Omega.
 Require Export Coq.Lists.List.
 Require Export bbv.Word.
 Require Export riscv.util.Monads.
